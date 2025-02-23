@@ -1,0 +1,86 @@
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoMedium.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoSemiBold.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 600;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoBold.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 700;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoExtraBold.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 800;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoLight.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 300;
+}
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterSemiBold.ttf");
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterRegular.ttf");
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterBold.ttf");
+    font-family: "Inter";
+    font-weight: 700;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/InterMedium.ttf");
+    font-family: "Inter";
+    font-weight: 500;
+}
+
+@font-face {
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/JetBrainsMonoRegular.ttf");
+    font-family: "JetBrains Mono";
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+    src: url("/fonts/RobotoMedium.ttf");
+}
