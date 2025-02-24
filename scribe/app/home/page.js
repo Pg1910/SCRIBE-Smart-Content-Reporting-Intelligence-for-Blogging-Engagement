@@ -3,24 +3,41 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import ChatInterface from './ChatInterface';
+import React, { useState, useEffect } from 'react';
+ import { getUserChats, getChatMessages, sendMessage } from '../api.js';
 
 const Homepage = () => {
     const [text, setText] = useState('');
     const [chatHistory, setChatHistory] = useState([]);
     const [submitted, setSubmitted] = useState(false);
-
+    const [chats, setChats] = useState([]);
+    const [selectedChat, setSelectedChat] = useState(null);
+    useEffect(() => {
+        const fetchChats = async () => {
+            const userId = "123"; // Replace with dynamic user ID
+            const userChats = await getUserChats(userId);
+            setChats(userChats);
+        };
+        fetchChats();
+    }, []);
     const handleTextChange = (e) => {
         setText(e.target.value);
     };
-
-    const handleSubmit = () => {
+    const handleChatSelect = async (chatId) => {
+        setSelectedChat(chatId);
+        const messages = await getChatMessages(chatId);
+        setChatHistory(messages);
+    };
+    const handleSubmit = async () => {
         if (text.trim()) {
             const newMessage = { role: 'user', content: text };
-            const aiReply = { role: 'assistant', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' };
+            setChatHistory([...chatHistory, newMessage]);
 
-            setChatHistory([...chatHistory, newMessage, aiReply]);
+            const response = await sendMessage(selectedChat, text);
+            if (response) {
+                setChatHistory([...chatHistory, newMessage, { role: 'assistant', content: response.reply }]);
+            }
             setText('');
-            setSubmitted(true);
         }
     };
 
