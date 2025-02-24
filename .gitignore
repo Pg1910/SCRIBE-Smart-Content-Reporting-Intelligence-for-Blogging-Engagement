@@ -1,0 +1,23 @@
+# Ignore all .log files
+*.log
+
+# Ignore all .env files
+*.env
+
+# Ignore all files that start with a dot (e.g. .DS_Store)
+*.DS_Store
+
+# Ignore all files that start with a dot and have a specific extension (e.g. .gitkeep)
+*.gitkeep
+
+# Ignore all files that start with a dot and have a specific extension (e.g. .idea)
+*.idea
+
+# Ignore all files that start with a dot and have a specific extension (e.g. .vscode)
+*.vscode
+
+# Ignore all files that start with a dot and have a specific extension (e.g. .cache)
+*.cache
+
+# Ignore all files that start with a dot and have a specific extension (e.g. .tmp)
+*.tmp
