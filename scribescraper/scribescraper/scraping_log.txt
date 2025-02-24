@@ -1,4 +1,0 @@
-2025-02-24 03:05:54,416 - INFO - Scrapy 2.12.0 started (bot: scribescraper)
-2025-02-24 03:05:54,553 - INFO - Versions: lxml 5.3.1.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.10.0, w3lib 2.3.1, Twisted 24.11.0, Python 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)], pyOpenSSL 25.0.0 (OpenSSL 3.4.0 22 Oct 2024), cryptography 44.0.0, Platform Windows-11-10.0.22631-SP0
-2025-02-24 03:06:58,542 - INFO - Scrapy 2.12.0 started (bot: scribescraper)
-2025-02-24 03:06:58,632 - INFO - Versions: lxml 5.3.1.0, libxml2 2.11.7, cssselect 1.2.0, parsel 1.10.0, w3lib 2.3.1, Twisted 24.11.0, Python 3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)], pyOpenSSL 25.0.0 (OpenSSL 3.4.0 22 Oct 2024), cryptography 44.0.0, Platform Windows-11-10.0.22631-SP0
