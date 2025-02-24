@@ -163,3 +163,10 @@ By following these five steps, you will have established a robust pipeline for:
 5. **Removing duplicate entries** to ensure data quality.
 
 This foundation is critical for SCRIBE’s advanced features, including vectorization, RAG-driven content generation, and automated publishing.
+
+## Authors
+
+* Akshat Singh
+* Piyush Gupta
+* Sriman Srinivasan
+* J V Kousthub
